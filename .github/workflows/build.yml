@@ -27,8 +27,7 @@ jobs:
         run: |
           rm -rf proyecto
           mkdir -p proyecto
-          unzip -o Conviene_0.8.0_STABLE_source.zip -d proyecto
-
+          unzip -o Conviene_0.8.0_STABLE_CORREGIDO_source.zip -d proyecto
       - name: Compilar APK Debug
         working-directory: proyecto/RentableZone
         run: |
